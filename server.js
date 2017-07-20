@@ -54,7 +54,7 @@ app.get("/scrape", function(req, res) {
     // Then, we load that into cheerio and save it to $ for a shorthand selector
     var $ = cheerio.load(html);
     // Now, we grab every h2 within an article tag, and do the following:
-    $(".cd__headline").each(function(i, element) {
+    $("h3.cd__headline").each(function(i, element) {
 
       // Save an empty result object
       var result = {};
