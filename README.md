@@ -1,10 +1,14 @@
 # scrapingNews
- a web app that lets users leave comments on the latest news.
+ Need your quick CNN news Fix? Well it's here, an application that pulls all the lastest news articles and lets users leave comments.
+
+ ## What is going on around the World?
+
+ View website [here](https://stormy-crag-43705.herokuapp.com)
 
 
-# Pseudo Coding
-1. Create database, run mongod, then run mongo
-2. Grab html elements from new articles from cnn.com
-3. Get web application to scrape articles.
-4. When user goes to my website, they will see cnn articles
-5. When user clicks on an article, they can leave comments or delete the article
+# Technologies Used
+* Mongo
+* mongoose
+* Node.js
+* HTML
+* CSS
